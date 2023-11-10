@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/عکس-باکیفیت-انعکاس-ماه-در-آب.jpg) no-repeat center /cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 2000px;
+    margin: 0px auto;
+    height: 400px;
+}
+.Weather{
+    display: flex;
+direction: rtl;
+width: 800px;
+background: #2e282891;
+}
+.Weather-city{
+    width: 50%;
+    background: #2e282891;
+}
+button{
+    width: 25%;
+    height: 30px;
+    background: #0080006b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 41px;
+}
+.Search-city-Weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    margin: 10px;
+    width: 100%;
+    background: inherit;
+    border: green;
+    border-bottom: green 5px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800px;
+}
+input:focus{
+    border-bottom: green 5px;
+}
