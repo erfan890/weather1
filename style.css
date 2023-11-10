@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/عکس-باکیفیت-انعکاس-ماه-در-آب.jpg) no-repeat center /cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 2000px;
+    margin: 0px auto;
+    height: 400px;
+    /* position: relative; */
+}
+.Weather{
+    display: flex;
+direction: rtl;
+width: 800px;
+background: #2e282891;
+/* position: fixed; */
+}
+.Weather-city{
+    width: 50%;
+    background: #2e282891;
+}
+button{
+    width: 25%;
+    height: 30px;
+    background: #0080006b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 41px;
+}
+.Search-city-Weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    margin: 10px;
+    width: 100%;
+    background: inherit;
+    border: green;
+    border-bottom: green 5px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800px;
+}
+input:focus{
+    border-bottom: green 5px;
+}
+.City,.country,.discription,.wind,.discription{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    direction: ltr;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+p{
+    margin: 0px 10px;
+}
+p::after{
+    content: '';
+    display: flex;
+    background: #33ff0033;
+    /* width: 100%; */
+
+}
+
+p:hover::after{
+    border-bottom: 1px #33ff0033 solid;
+    transition: 0.6s;
+}
+.status-weather-city{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 45%;
+
+}
+.Weathercity{
+    font-size: 25px;
+    margin: 20px;
+    color: white;
+}
+img{
+    background-color: white;
+    border-radius: 50%;
+}
